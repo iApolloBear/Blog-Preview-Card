@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/iApolloBear/Blog-Preview-Card)
-- Live Site URL: [Add live site URL here](https://iapollobear.github.io/Blog-Preview-Card)
+- Solution URL: [https://github.com/iApolloBear/Blog-Preview-Card](https://github.com/iApolloBear/Blog-Preview-Card)
+- Live Site URL: [https://iapollobear.github.io/Blog-Preview-Card](https://iapollobear.github.io/Blog-Preview-Card)
 
 ## My process
 
