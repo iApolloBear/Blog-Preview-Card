@@ -3,8 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
@@ -22,38 +20,49 @@
     />
   </head>
   <body>
-    <main>
-      <article class="card">
+    <main class="page">
+      <article class="blog-card" aria-labelledby="blog-card-title">
         <img
-          class="card_image"
+          class="blog-card__image"
           src="./assets/images/illustration-article.svg"
           alt="Article Illustration"
+          height="200"
+          width="279"
         />
-        <section class="card_content">
-          <span class="card_content_category">Learning</span>
-          <span class="card_content_date"
-            >Published <time datetime="2023-12-21">21 Dec 2023</time></span
-          >
-          <h3 class="card_content_title">HTML & CSS foundations</h3>
+
+        <section class="blog-card__content">
+          <span class="blog-card__category">Learning</span>
+
+          <p class="blog-card__date">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+
+          <h1 id="blog-card-title" class="blog-card__title">
+            HTML &amp; CSS foundations
+          </h1>
+
           <p class="card_content_description">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
         </section>
-        <section class="card_author">
+
+        <footer class="blog-card__author">
           <img
-            class="card_author_picture"
+            class="blog-card__avatar"
             src="./assets/images/image-avatar.webp"
-            alt="User Picture"
+            alt="User Avatar"
+            width="32"
+            height="32"
           />
-          <span class="text-preset-3 card_author_name">Greg Hooper</span>
-        </section>
+          <span class="text-preset-3 blog-card__author-name">Greg Hooper</span>
+        </footer>
       </article>
     </main>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">aldo</a>.
     </footer>
   </body>
 </html>
